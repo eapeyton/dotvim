@@ -4,10 +4,10 @@ echo "Found repository directory as $directory"
 cd ~
 
 echo "Linking .vimrc..."
-ln -sf $directory/vimrc ~/.vimrc
+ln -sf $directory/.vimrc ~/.vimrc
 
 echo "Linking .gvimrc..."
-ln -sf $directory/gvimrc ~/.gvimrc
+ln -sf $directory/.gvimrc ~/.gvimrc
 
 echo "Updating git submodule..."
 cd $directory
