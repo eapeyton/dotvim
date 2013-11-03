@@ -12,6 +12,7 @@ ln -sf $directory/.gvimrc ~/.gvimrc
 if [ "$(uname -s)" == "Darwin" ]; then
     echo "Linking .profile..."
     ln -sf $directory/.profile ~/.profile
+fi
 
 echo "Updating git submodule..."
 cd $directory
