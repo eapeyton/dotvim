@@ -9,6 +9,10 @@ ln -sf $directory/.vimrc ~/.vimrc
 echo "Linking .gvimrc..."
 ln -sf $directory/.gvimrc ~/.gvimrc
 
+if [ "$(uname -s)" == "Darwin" ]; then
+    echo "Linking .profile..."
+    ln -sf $directory/.profile ~/.profile
+
 echo "Updating git submodule..."
 cd $directory
 git submodule init
