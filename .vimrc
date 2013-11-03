@@ -12,3 +12,8 @@ syntax on
 filetype on
 filetype plugin on
 
+" Commands "
+command! Pause mks! pause.vim | mks! ~/.vim/pause.vim | wa | qa
+cabbrev pause Pause
+cabbrev p Pause
+
