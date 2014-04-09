@@ -12,6 +12,9 @@ syntax on
 filetype on
 filetype plugin on
 
+" Colorscheme "
+colorscheme koehler
+
 " Commands "
 command! Pause mks! pause.vim | mks! ~/.vim/pause.vim | wa | qa
 cabbrev pause Pause
