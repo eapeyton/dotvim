@@ -20,3 +20,6 @@ command! Pause mks! pause.vim | mks! ~/.vim/pause.vim | wa | qa
 cabbrev pause Pause
 cabbrev p Pause
 
+" Pathogen "
+execute pathogen#infect()
+
