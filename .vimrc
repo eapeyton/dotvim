@@ -22,4 +22,3 @@ cabbrev p Pause
 
 " Pathogen "
 execute pathogen#infect()
-
