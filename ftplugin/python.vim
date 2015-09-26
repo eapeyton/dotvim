@@ -10,5 +10,6 @@ function! TestFile(...)
         let file_name = file_name . "Test.py"
     end
     echo file_name
+    execute "wa"
     execute "!python " . file_name
 endfunction
